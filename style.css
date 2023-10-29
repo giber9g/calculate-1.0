@@ -1,0 +1,70 @@
+* { 
+    font-family: 'Arimo', sans-serif;
+    box-sizing:border-box; 
+}
+
+.container    { 
+    font-family: 'Arimo', sans-serif;
+    width:600px; 
+    margin:30px auto 0; 
+    display:block; 
+    
+    background:#FFF;
+    padding:10px 50px 50px;
+}
+
+.group        { 
+  position:relative; 
+  margin-bottom:45px; 
+}
+
+input         {
+  font-size:28px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:300px;
+  
+
+}
+
+label          {
+  color:#999; 
+  font-size:28px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+}
+
+input:focus ~ label, input:valid ~ label    {
+  top:-20px;
+  font-size:18px;
+  color:#5264AE;
+}
+.operation{
+width: 100%;
+    margin-bottom: 30px;
+}
+select{
+    width: 50px;
+    height: 50px;
+    margin-left: 140px;
+    text-align: center;
+}
+.result{
+    margin-left: 130px;
+}
+button{
+    width: 100px;
+    height: 28px;
+}
+p{
+    margin-left: 140px;
+}
+
+
+
+
+
+
